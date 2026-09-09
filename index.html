@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shiva Karki — Graphic Designer, Video Editor & Music Producer</title>
+<meta name="description" content="Portfolio of Shiva Karki: graphic design, video editing and music production.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ambient grain texture -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#home" class="nav-mark">SK</a>
+
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+    <span></span><span></span>
+  </button>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="#home" data-nav>Home</a>
+    <a href="#about" data-nav>About</a>
+    <a href="#skills" data-nav>Skills</a>
+    <a href="#projects" data-nav>Projects</a>
+    <a href="#contact" data-nav>Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <p class="hero-kicker">Graphic design · Video editing · Music production</p>
+      <h1 class="hero-name">
+        <span class="line" data-line="1">Shiva</span>
+        <span class="line" data-line="2">Karki</span>
+      </h1>
+      <svg class="signal signal-hero" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true">
+        <path class="signal-path" d="M0,60 L40,60 L55,20 L70,100 L85,60 L120,60 L135,35 L150,85 L165,60 L400,60 L415,15 L430,105 L445,60 L700,60 L715,30 L730,90 L745,60 L850,60 L865,25 L880,95 L895,60 L1000,60" />
+      </svg>
+      <p class="hero-sub">He shapes a mark, cuts a scene, and mixes a track — three crafts, one eye for rhythm and contrast.</p>
+      <a href="#projects" class="hero-cta">See the work</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Shiva Karki works across three disciplines that most people keep separate: graphic design, video editing, and music production. He treats them as one practice — a headline is a beat, a cut is a brushstroke, a colour palette is a chord.</p>
+        <p>His process starts with constraints, not inspiration: a brand's tone, a track's tempo, a client's deadline. Everything visual or audible gets built to serve the story, never the other way round.</p>
+        <p>Currently open to freelance projects in branding, short-form video, and original music for media.</p>
+      </div>
+      <div class="about-facts">
+        <div class="fact">
+          <span class="fact-num">01</span>
+          <p>Based wherever the project needs him — remote-first, deadline-driven.</p>
+        </div>
+        <div class="fact">
+          <span class="fact-num">02</span>
+          <p>Comfortable owning a project end to end: concept, asset, delivery.</p>
+        </div>
+        <div class="fact">
+          <span class="fact-num">03</span>
+          <p>Believes the best work sits at the seam between disciplines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <p class="section-note">Levels below are placeholders — edit the <code>--level</code> values in the HTML to match Shiva's actual strengths.</p>
+    </div>
+
+    <div class="console">
+
+      <div class="channel">
+        <h3>Graphic design</h3>
+        <div class="meter" data-level="90"><span class="meter-label">Branding &amp; identity</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+        <div class="meter" data-level="85"><span class="meter-label">Layout &amp; print</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+        <div class="meter" data-level="80"><span class="meter-label">Typography</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+        <div class="meter" data-level="75"><span class="meter-label">Illustration</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+      </div>
+
+      <div class="channel">
+        <h3>Video editing</h3>
+        <div class="meter" data-level="88"><span class="meter-label">Narrative editing</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+        <div class="meter" data-level="82"><span class="meter-label">Motion graphics</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+        <div class="meter" data-level="78"><span class="meter-label">Colour grading</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+        <div class="meter" data-level="70"><span class="meter-label">Sound design for video</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+      </div>
+
+      <div class="channel">
+        <h3>Music production</h3>
+        <div class="meter" data-level="92"><span class="meter-label">Beat making</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+        <div class="meter" data-level="84"><span class="meter-label">Mixing</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+        <div class="meter" data-level="76"><span class="meter-label">Mastering</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+        <div class="meter" data-level="80"><span class="meter-label">Sound design</span><div class="meter-track"><div class="meter-fill"></div></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <p class="section-note">Placeholder tracklist — swap the titles, tags, years and thumbnails for real work.</p>
+    </div>
+
+    <div class="tracklist">
+
+      <a class="track" href="#" tabindex="0">
+        <span class="track-num">01</span>
+        <span class="track-title">Brand identity for a coffee roastery</span>
+        <span class="track-tag">Graphic design · 2025</span>
+        <span class="track-thumb" style="--thumb: var(--signal);">Add image</span>
+      </a>
+
+      <a class="track" href="#" tabindex="0">
+        <span class="track-num">02</span>
+        <span class="track-title">Short film — "Low Tide" title sequence</span>
+        <span class="track-tag">Video editing · 2025</span>
+        <span class="track-thumb" style="--thumb: #4C6B8A;">Add image</span>
+      </a>
+
+      <a class="track" href="#" tabindex="0">
+        <span class="track-num">03</span>
+        <span class="track-title">EP artwork &amp; visualiser set</span>
+        <span class="track-tag">Design + Video · 2024</span>
+        <span class="track-thumb" style="--thumb: #7A9A5B;">Add image</span>
+      </a>
+
+      <a class="track" href="#" tabindex="0">
+        <span class="track-num">04</span>
+        <span class="track-title">Original score for a documentary</span>
+        <span class="track-tag">Music production · 2024</span>
+        <span class="track-thumb" style="--thumb: #A8763E;">Add image</span>
+      </a>
+
+      <a class="track" href="#" tabindex="0">
+        <span class="track-num">05</span>
+        <span class="track-title">Social campaign — motion set</span>
+        <span class="track-tag">Video editing · 2023</span>
+        <span class="track-thumb" style="--thumb: #8A5A8C;">Add image</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-head">
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-body">
+      <p class="contact-line">Have a brief, a track, or a scene that needs cutting?</p>
+      <a class="contact-cta" href="mailto:hello@shivakarki.com">hello@shivakarki.com</a>
+      <div class="contact-links">
+        <a href="#" target="_blank" rel="noopener">Behance</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" target="_blank" rel="noopener">SoundCloud</a>
+        <a href="#" target="_blank" rel="noopener">Vimeo</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>&copy; <span id="year"></span> Shiva Karki. Built by hand.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
